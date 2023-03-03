@@ -8,6 +8,7 @@ connect_four = [[0, 0, 0, 0, 0, 0, 0],
                 [0, 1, 2, 2, 1, 0, 0]]
 
 connect_four = np.array(connect_four)
+#It would be nice to check diagonal connection.
 
 def check_four(row):
     a = "".join([str(i) for i in row])
